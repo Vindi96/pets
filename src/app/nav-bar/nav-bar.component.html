@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd;">
+  <a class=" navbar-brand " routerLink='/'>Pets-Spot</a>
+  <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarSupportedContent
+    " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
+    <span class="navbar-toggler-icon "></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+    <ul class="navbar-nav mr-auto ">
+      <li class="nav-item">
+        <a class="nav-link " [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" routerLink='/'>Cats
+          <span class="sr-only ">(currzent)</span>
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link " routerLinkActive="active" routerLink='dog-pet'>Dogs</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link " routerLinkActive="active" routerLink='add-pet'>Pet-list</a>
+      </li>
+
+
+    </ul>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" routerLinkActive="active" routerLink='user-regester'>Regester</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink='user-login'>Login</a>
+      </li>
+    </ul>
+  </div>
+</nav>
